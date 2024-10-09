@@ -11,11 +11,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        'custom-bg': '#fffde8',
+        'main-color': '#666666',
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        sans: ['Roboto', 'Arial', 'sans-serif'],
       },
     },
   },
   plugins: [],
 };
+
 export default config;
